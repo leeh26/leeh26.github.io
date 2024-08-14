@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "font";
+    src: url(pricedown\ bl.otf);
+}
+*{
+    font-family: "font";
+}
 #widget{
     padding: 10px; 
     border: 1px solid #ccc; 
@@ -13,4 +20,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100px;
+}
+.box p {
+    font-size: 30px;
 }
